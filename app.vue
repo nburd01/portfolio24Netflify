@@ -59,24 +59,21 @@
               Crafting nice and useful things for people
             </h1>
           </div>
-          <p class="text-center text-black p-0 sm:px-24 py-5">
-            I AM CURRENTLY PART OF THE DESIGN TEAM AT EGGS DESIGN﻿ IN MADRID,
-            AND I HAVE HAD THE OPPORTUNITY TO HELP CREATE DIGITAL EXPERIENCES
-            AND SOLUTIONS FOR BIG BRANDS FOR THE LAST 20 YEARS OF MY LIFE. I
-            CONSIDER MYSELF PASSIONATE ABOUT TECHNOLOGY, WORKING AT THE
-            INTERSECTION BETWEEN BRANDING AND DIGITAL PRODUCT DESIGN.
+          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5">
+            An enriching experience in IT reinforced my desire to work more
+            closely with the product and the organization of work. Today I
+            aspire to a Front-end Developer or Product Owner position which will
+            allow me to highlight this versatility acquired during my career in
+            the field of innovation and the web.
           </p>
-          <p class="text-center text-black p-0 sm:px-24 py-5">
-            NOW, I WORK HAND IN HAND WITH BBVA DESIGN AND USER EXPERIENCE TEAM
-            HELPING TO IMPROVE THEIR DIGITAL PRODUCTS BY BALANCING BUSINESS
-            PRIORITIES WITH THOSE OF THE THOUSANDS OF USERS WHO USE THEIR
-            SERVICES. FROM THE EARLY STAGES OF DEFINITION AND IDEATION, TO THE
-            REVIEW OF INTERACTION FLOWS AND USER TESTING.
+          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5">
+            I graduated from Business Administration and Marketing degree in
+            IGR-IAE school of Management in Rennes, France.
           </p>
-          <p class="text-center text-black p-0 sm:px-24 py-5">
-            PREVIOUSLY I HAD THE OPPORTUNITY TO COLLABORATE WITH REPSOL'S DESIGN
-            TEAM, FROM UX TO VISUAL PROCESSES, HELPING LAUNCH FUNCTIONALITIES
-            FOCUSED WHERE REPSOL CURRENTLY OPERATES.
+          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5">
+            Previously I had the opportunity to collaborate with the Fédération
+            Française de Football where I focused on rebranding and marketing
+            the entity, and also porposed and led the project.
           </p>
           <img src="assets/img/portrait.webp" class="portrait" alt="" />
         </div>

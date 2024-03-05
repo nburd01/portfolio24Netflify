@@ -172,6 +172,10 @@ section,
   margin-top: 70%;
 }
 
+.whatIdo {
+  text-transform: uppercase;
+}
+
 .e6eaee {
   background-color: #e6eaee;
 }
