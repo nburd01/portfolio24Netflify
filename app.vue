@@ -109,6 +109,29 @@
     </div>
     <div class="spacer"></div>
 
+    <!-- Rubrash-->
+    <div class="card bg-black" id="link">
+      <section class="card justify-center sm:sm:p-11 pt-0 h-lvh">
+        <div class="container">
+          <div
+            class="content-baseline justify-start flex flex-wrap sm:sm:p-11 pt-0"
+          >
+            <NuxtLink to="https://rubrash.com/">
+              <div class="mx-auto flex justify-center flex flex-wrap">
+                <img class="projectImg" src="assets/img/rubrash.webp" alt="" />
+              </div>
+              <div class="container">
+                <div class="project">Rubrash</div>
+                <div class="project-description"></div>
+                <div>✦ LARAVEL DEVELOPER / NUXT.JS</div>
+                <!-- <font-awesome-icon icon="fa-solid fa-house" /> -->
+              </div>
+            </NuxtLink>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="spacer"></div>
     <!-- Roazhon Goal Academy-->
     <div class="card bg-black" id="link">
       <section class="card justify-center sm:sm:p-11 pt-0 h-lvh">
@@ -116,21 +139,46 @@
           <div
             class="content-baseline justify-start flex flex-wrap sm:sm:p-11 pt-0"
           >
-            <div class="mx-auto flex justify-center flex flex-wrap">
-              <img class="projectImg" src="assets/img/rga.webp" alt="" />
-            </div>
-            <div class="container">
-              <div class="project">Roazhon Goal Academy</div>
-              <div class="project-description"></div>
-              <div>✦ PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
-              <!-- <font-awesome-icon icon="fa-solid fa-house" /> -->
-            </div>
+            <NuxtLink to="https://roazhongoalacademy.fr/">
+              <div class="mx-auto flex justify-center flex flex-wrap">
+                <img class="projectImg" src="assets/img/rga.webp" alt="" />
+              </div>
+              <div class="container">
+                <div class="project">Roazhon Goal Academy</div>
+                <div class="project-description"></div>
+                <div>✦ PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
+                <!-- <font-awesome-icon icon="fa-solid fa-house" /> -->
+              </div>
+            </NuxtLink>
           </div>
         </div>
       </section>
     </div>
     <div class="spacer"></div>
     <!-- Centre Technique Bretagne -->
+    <div class="card bg-black" id="link">
+      <section class="card justify-center sm:sm:p-11 pt-0 h-lvh">
+        <div class="container">
+          <div
+            class="content-baseline justify-start flex flex-wrap sm:sm:p-11 pt-0"
+          >
+            <NuxtLink to="https://centretechniquebretagne.com/">
+              <div class="mx-auto flex justify-center flex flex-wrap">
+                <img class="projectImg" src="assets/img/ctbhg.webp" alt="" />
+              </div>
+
+              <div class="container">
+                <div class="project">Centre Technique Bretagne</div>
+                <div class="project-description"></div>
+                <div>✦ PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
+                <!-- <font-awesome-icon icon="fa-solid fa-house" /> -->
+              </div>
+            </NuxtLink>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="spacer"></div>
 
     <div class="spacer"></div>
     <!-- FOOTER -->
@@ -251,7 +299,7 @@ onMounted(() => {
   });
 
   window.addEventListener("scroll", function () {
-    var pos = window.scrollY || window.pageYOffset;
+    var pos = window.scrollY || window.scrollY;
 
     for (var i = 0; i < cards.length; i++) {
       if (pos >= positions[i]) {
