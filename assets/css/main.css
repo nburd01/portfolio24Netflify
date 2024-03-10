@@ -182,25 +182,6 @@ section,
 span {
   font-size: 0.75em;
 }
-.containerr {
-  position: relative;
-  height: 70px;
-  overflow: hidden;
-  outline: 1px transparent;
-}
-
-ul {
-  position: absolute;
-  top: 0;
-  left: 0;
-  list-style: none;
-  white-space: nowrap;
-}
-
-.menuu {
-  color: transparent;
-  -webkit-text-stroke: 1px black;
-}
 
 @media screen and (max-width: 720px) {
   span {
@@ -213,10 +194,16 @@ ul {
     padding-top: 3em;
     padding-left: 1em;
   }
+  .container {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 900px) {
   .skills {
     width: 100%;
+  }
+  .container {
+    padding: 2em;
   }
 }
 @media screen and (max-width: 1024px) {

@@ -52,7 +52,7 @@
 
     <!-- INTRODUCTION TO ME -->
     <div class="card">
-      <section class="card bg-white p-11 h-lvh flex flex-col">
+      <section class="card bg-white sm:p-11 h-lvh flex flex-col">
         <div class="container mx-auto px-0 sm:px-0 flex flex-col items-center">
           <div class="">
             <h1 class="aboutMeText text-black text-center">
@@ -83,12 +83,14 @@
 
     <!-- WHAT I DO -->
     <div class="card">
-      <section class="card skillsDiv e6eaee p-11 h-lvh">
-        <div class="skills flex flex-col text-black">
-          <span class="whatIDo">Product design</span>
-          <span class="whatIDo">User experience</span>
-          <span class="whatIDo">UI design</span>
-          <span class="whatIDo">Visual design</span>
+      <section class="card skillsDiv e6eaee sm:p-11 h-lvh">
+        <div class="container">
+          <div class="skills flex flex-col text-black">
+            <span class="whatIDo">Product design</span>
+            <span class="whatIDo">User experience</span>
+            <span class="whatIDo">UI design</span>
+            <span class="whatIDo">Visual design</span>
+          </div>
         </div>
       </section>
     </div>
@@ -99,27 +101,28 @@
       class="card roundedCard last-card bg-black w-full h-full text-center justify-center"
     >
       <!-- <section> -->
-      <section id="zoom-out">
-        <h2 class="flex text-center justify-center gsapText">Recent work</h2>
-      </section>
-      <section id="noZoom">
-        <h2 class="flex text-center justify-center gsapText">Recent work</h2>
+      <section>
+        <h2 class="flex text-center justify-center headline">Recent work</h2>
       </section>
     </div>
     <div class="spacer"></div>
 
     <!-- Roazhon Goal Academy-->
     <div class="card bg-black" id="link">
-      <section class="card sm:p-11 pt-0 h-lvh">
-        <div class="content-baseline justify-start flex flex-wrap p-11 pt-0">
-          <div class="mx-auto flex justify-center flex flex-wrap">
-            <img class="projectImg" src="assets/img/rga.webp" alt="" />
-          </div>
-          <div class="container">
-            <div class="project">Roazhon Goal Academy</div>
-            <div class="project-description"></div>
-            <div>✦ PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
-            <!-- <font-awesome-icon icon="fa-solid fa-house" /> -->
+      <section class="card sm:sm:p-11 pt-0 h-lvh">
+        <div class="container">
+          <div
+            class="content-baseline justify-start flex flex-wrap sm:sm:p-11 pt-0"
+          >
+            <div class="mx-auto flex justify-center flex flex-wrap">
+              <img class="projectImg" src="assets/img/rga.webp" alt="" />
+            </div>
+            <div class="container">
+              <div class="project">Roazhon Goal Academy</div>
+              <div class="project-description"></div>
+              <div>✦ PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
+              <!-- <font-awesome-icon icon="fa-solid fa-house" /> -->
+            </div>
           </div>
         </div>
       </section>
@@ -131,9 +134,9 @@
     <!-- FOOTER -->
     <div class="">
       <footer id="contact" class="footerCard roundedCard bg-white h-24 flex">
-        <!-- <div class="flex p-11"> -->
+        <!-- <div class="flex sm:p-11"> -->
         <div class="flex flex-col roundedCard justify-between bg-white z-10">
-          <div class="flex flex-row justify-between p-11">
+          <div class="flex flex-row justify-between sm:p-11">
             <h1 class="footerTitle text-black">
               Tell me something cool or just troll me.
             </h1>
@@ -145,7 +148,7 @@
               </ul>
             </div>
           </div>
-          <div class="marquee bg-white p-11">
+          <div class="marquee bg-white sm:p-11">
             <div class="wrapper">
               <div class="box">
                 <div class="test">N</div>
@@ -259,17 +262,6 @@ onMounted(() => {
   const { innerHeight } = window;
 
   //ZOOM-OUT
-  gsap.from("#zoom-out h2", {
-    scale: 100,
-    stagger: 2,
-    duration: 2,
-    scrollTrigger: {
-      trigger: "#zoom-out",
-      pin: false,
-      end: `+=${innerHeight * 1.3}`,
-      scrub: 3,
-    },
-  });
 
   //MARQUEE
   const wrapper = document.querySelector(".wrapper");
