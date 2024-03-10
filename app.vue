@@ -192,9 +192,15 @@
             </h1>
             <div id="contactMe">
               <ul class="text-black">
-                <li>instagram</li>
-                <li>Linktree</li>
-                <li>email</li>
+                <NuxtLink to="https://www.instagram.com/niallyyy_/?hl=fr">
+                  <li>instagram</li>
+                </NuxtLink>
+                <NuxtLink to="https://linktr.ee/niallburdon">
+                  <li>Linktree</li>
+                </NuxtLink>
+                <NuxtLink href="mailto:niall.burdon@gmail.com">
+                  <li>email</li>
+                </NuxtLink>
               </ul>
             </div>
           </div>
