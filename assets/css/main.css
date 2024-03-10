@@ -95,6 +95,9 @@ section,
 .spacer {
   width: 100%;
 }
+.sm-spacer {
+  width: 50%;
+}
 
 .latched {
   position: fixed;
