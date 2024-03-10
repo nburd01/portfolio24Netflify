@@ -226,8 +226,11 @@ span {
   }
 }
 @media screen and (min-width: 720px) {
-  .container {
-    max-width: fit-content;
+  #zoom-out {
+    display: flex;
+  }
+  #noZoom {
+    display: none;
   }
 }
 @media screen and (max-width: 1460px) {

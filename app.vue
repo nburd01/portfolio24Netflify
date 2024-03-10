@@ -33,7 +33,7 @@
                 <span class="flex m-3 md:m-0">Frontend Developer</span>
               </div>
               <div class="flex sm:justify-start">
-                <span class="flex m-3 md:m-0">Digital Consultant</span>
+                <span class="flex m-3 md:m-0">Business Analyst</span>
               </div>
             </div>
 
@@ -180,107 +180,107 @@
     </div>
     <div class="spacer"></div>
 
+    <div class="spacer"></div>
     <!-- FOOTER -->
     <div class="">
       <footer id="contact" class="footerCard roundedCard bg-white h-24 flex">
         <!-- <div class="flex sm:p-11"> -->
         <div class="flex flex-col roundedCard justify-between bg-white z-10">
-          <div class="container">
-            <div class="flex flex-row justify-between sm:p-11">
-              <h1 class="footerTitle text-black">
-                Tell me something cool or just troll me.
-              </h1>
-              <div id="contactMe">
-                <ul class="text-black">
-                  <NuxtLink to="https://www.instagram.com/niallyyy_/?hl=fr">
-                    <li>instagram</li>
-                  </NuxtLink>
-                  <NuxtLink to="https://linktr.ee/niallburdon">
-                    <li>Linktree</li>
-                  </NuxtLink>
-                  <NuxtLink href="mailto:niall.burdon@gmail.com">
-                    <li>email</li>
-                  </NuxtLink>
-                </ul>
-              </div>
+          <div class="container"></div>
+          <div class="flex flex-row justify-between sm:p-11">
+            <h1 class="footerTitle text-black">
+              Tell me something cool or just troll me.
+            </h1>
+            <div id="contactMe">
+              <ul class="text-black">
+                <NuxtLink to="https://www.instagram.com/niallyyy_/?hl=fr">
+                  <li>instagram</li>
+                </NuxtLink>
+                <NuxtLink to="https://linktr.ee/niallburdon">
+                  <li>Linktree</li>
+                </NuxtLink>
+                <NuxtLink href="mailto:niall.burdon@gmail.com">
+                  <li>email</li>
+                </NuxtLink>
+              </ul>
             </div>
-            <div class="marquee bg-white sm:p-11">
-              <div class="wrapper">
-                <div class="box">
-                  <div class="test">N</div>
-                </div>
-                <div class="box">
-                  <div class="test">I</div>
-                </div>
-                <div class="box">
-                  <div class="test">A</div>
-                </div>
-                <div class="box">
-                  <div class="test">L</div>
-                </div>
-                <div class="box">
-                  <div class="test">L</div>
-                </div>
-                <div class="box">
-                  <div class="test">.</div>
-                </div>
-                <div class="box">
-                  <div class="test">B</div>
-                </div>
-                <div class="box">
-                  <div class="test-2">U</div>
-                </div>
-                <div class="box">
-                  <div class="test">R</div>
-                </div>
-                <div class="box">
-                  <div class="test">D</div>
-                </div>
-                <div class="box">
-                  <div class="test">O</div>
-                </div>
-                <div class="box">
-                  <div class="test">N</div>
-                </div>
-                <div class="box">
-                  <div class="test">@</div>
-                </div>
-                <div class="box">
-                  <div class="test">G</div>
-                </div>
-                <div class="box">
-                  <div class="test">M</div>
-                </div>
-                <div class="box">
-                  <div class="test">A</div>
-                </div>
-                <div class="box">
-                  <div class="test">I</div>
-                </div>
-                <div class="box">
-                  <div class="test">L</div>
-                </div>
-                <div class="box">
-                  <div class="test">.</div>
-                </div>
-                <div class="box">
-                  <div class="test">C</div>
-                </div>
-                <div class="box">
-                  <div class="test">O</div>
-                </div>
-                <div class="box">
-                  <div class="test">M</div>
-                </div>
-                <div class="box">
-                  <div class="test"></div>
-                </div>
-                <div class="box">
-                  <div class="test"></div>
-                </div>
-                <div class="box">
-                  <div class="test"></div>
-                </div>
+          </div>
+          <div class="marquee bg-white sm:p-11">
+            <div class="wrapper">
+              <div class="box">
+                <div class="test">N</div>
+              </div>
+              <div class="box">
+                <div class="test">I</div>
+              </div>
+              <div class="box">
+                <div class="test">A</div>
+              </div>
+              <div class="box">
+                <div class="test">L</div>
+              </div>
+              <div class="box">
+                <div class="test">L</div>
+              </div>
+              <div class="box">
+                <div class="test">.</div>
+              </div>
+              <div class="box">
+                <div class="test">B</div>
+              </div>
+              <div class="box">
+                <div class="test-2">U</div>
+              </div>
+              <div class="box">
+                <div class="test">R</div>
+              </div>
+              <div class="box">
+                <div class="test">D</div>
+              </div>
+              <div class="box">
+                <div class="test">O</div>
+              </div>
+              <div class="box">
+                <div class="test">N</div>
+              </div>
+              <div class="box">
+                <div class="test">@</div>
+              </div>
+              <div class="box">
+                <div class="test">G</div>
+              </div>
+              <div class="box">
+                <div class="test">M</div>
+              </div>
+              <div class="box">
+                <div class="test">A</div>
+              </div>
+              <div class="box">
+                <div class="test">I</div>
+              </div>
+              <div class="box">
+                <div class="test">L</div>
+              </div>
+              <div class="box">
+                <div class="test">.</div>
+              </div>
+              <div class="box">
+                <div class="test">C</div>
+              </div>
+              <div class="box">
+                <div class="test">O</div>
+              </div>
+              <div class="box">
+                <div class="test">M</div>
+              </div>
+              <div class="box">
+                <div class="test"></div>
+              </div>
+              <div class="box">
+                <div class="test"></div>
+              </div>
+              <div class="box">
+                <div class="test"></div>
               </div>
             </div>
           </div>
