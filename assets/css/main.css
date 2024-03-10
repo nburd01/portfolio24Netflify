@@ -108,6 +108,7 @@ section,
   width: auto;
   height: auto;
   z-index: 0;
+  overflow-x: hidden;
 
   + .spacer {
     height: 100vh;
@@ -223,6 +224,11 @@ span {
   }
   #noZoom {
     display: none;
+  }
+}
+@media screen and (min-width: 720px) {
+  .container {
+    max-width: fit-content;
   }
 }
 @media screen and (max-width: 1460px) {
