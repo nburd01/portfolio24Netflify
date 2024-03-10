@@ -102,7 +102,9 @@
     >
       <!-- <section> -->
       <section>
-        <h2 class="flex text-center justify-center headline">Recent work</h2>
+        <div class="container flex align-center wrap">
+          <h2 class="flex text-center justify-center headline">Recent work</h2>
+        </div>
       </section>
     </div>
     <div class="spacer"></div>
