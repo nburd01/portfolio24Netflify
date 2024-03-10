@@ -110,7 +110,7 @@
 
     <!-- Roazhon Goal Academy-->
     <div class="card bg-black" id="link">
-      <section class="card p-11 pt-0 h-lvh">
+      <section class="card sm:p-11 pt-0 h-lvh">
         <div class="content-baseline justify-start flex flex-wrap p-11 pt-0">
           <div class="mx-auto flex justify-center flex flex-wrap">
             <img class="projectImg" src="assets/img/rga.webp" alt="" />
