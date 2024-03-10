@@ -33,7 +33,7 @@
                 <span class="flex m-3 md:m-0">Frontend Developer</span>
               </div>
               <div class="flex sm:justify-start">
-                <span class="flex m-3 md:m-0">Business Analyst</span>
+                <span class="flex m-3 md:m-0">Digital Consultant</span>
               </div>
             </div>
 
