@@ -180,7 +180,6 @@
     </div>
     <div class="spacer"></div>
 
-    <div class="spacer"></div>
     <!-- FOOTER -->
     <div class="">
       <footer id="contact" class="footerCard roundedCard bg-white h-24 flex">
