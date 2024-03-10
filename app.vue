@@ -84,7 +84,7 @@
     <!-- WHAT I DO -->
     <div class="card">
       <section class="card skillsDiv e6eaee sm:p-11 h-lvh">
-        <div class="container">
+        <div class="container contents">
           <div class="skills flex flex-col text-black">
             <span class="whatIDo">Product design</span>
             <span class="whatIDo">User experience</span>
@@ -109,7 +109,7 @@
 
     <!-- Roazhon Goal Academy-->
     <div class="card bg-black" id="link">
-      <section class="card sm:sm:p-11 pt-0 h-lvh">
+      <section class="card justify-center sm:sm:p-11 pt-0 h-lvh">
         <div class="container">
           <div
             class="content-baseline justify-start flex flex-wrap sm:sm:p-11 pt-0"
