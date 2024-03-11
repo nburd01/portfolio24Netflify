@@ -73,21 +73,20 @@
             </h1>
           </div>
           <p class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp">
-            An enriching experience in IT reinforced my desire to work more
-            closely with the product and the organization of work. Today I
-            aspire to a Front-end Developer or Product Owner position which will
-            allow me to highlight this versatility acquired during my career in
-            the field of innovation and the web.
+            I combined my marketing and design skills with computer science
+            knowledge to make the perfect storm! Today I accompany clients
+            realize their projects throughout personalized, handcrafted and
+            creative websites.
           </p>
           <p class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp">
-            I graduated from Business Administration and Marketing degree in
-            IGR-IAE school of Management in Rennes, France.
+            After graduating from a Business Administration and Marketing degree
+            in IGR-IAE school of Management in Rennes, France.
           </p>
-          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp">
+          <!-- <p class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp">
             Previously I had the opportunity to collaborate with the Fédération
             Française de Football where I focused on rebranding and marketing
             the entity, and also porposed and led the project.
-          </p>
+          </p> -->
           <img
             src="assets/img/portrait.webp"
             class="portrait revealUp"
