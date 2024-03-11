@@ -118,8 +118,8 @@ section,
 
 .portrait {
   border-radius: 40%;
-  max-width: auto;
-  height: 30%;
+  max-width: 30%;
+  height: auto;
 }
 
 .gsapText {
