@@ -78,15 +78,19 @@
             realize their projects throughout personalized, handcrafted and
             creative websites.
           </p>
-          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp">
+          <p
+            class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp desktop"
+          >
             After graduating from a Business Administration and Marketing degree
             in IGR-IAE school of Management in Rennes, France.
           </p>
-          <!-- <p class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp">
+          <p
+            class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp desktop"
+          >
             Previously I had the opportunity to collaborate with the Fédération
             Française de Football where I focused on rebranding and marketing
             the entity, and also porposed and led the project.
-          </p> -->
+          </p>
           <img
             src="assets/img/portrait.webp"
             class="portrait revealUp"
