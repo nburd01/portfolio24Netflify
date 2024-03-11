@@ -52,7 +52,7 @@
 
     <!-- INTRODUCTION TO ME -->
     <div class="card">
-      <section class="card bg-white sm:p-11 h-lvh flex flex-col">
+      <section class="card p-0 sm:p-20 bg-white sm:p-11 h-lvh flex flex-col">
         <div class="container mx-auto px-0 sm:px-0 flex flex-col items-center">
           <div class="">
             <h1 class="aboutMeText text-black text-center">
@@ -102,7 +102,7 @@
     >
       <!-- <section> -->
       <section>
-        <div class="container flex align-center wrap">
+        <div class="container p-0 sm:p-20 flex align-center wrap">
           <h2 class="flex text-center justify-center headline">Recent work</h2>
         </div>
       </section>
