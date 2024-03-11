@@ -227,10 +227,6 @@ span {
   .projectImg {
     height: 30%;
   }
-  .portrait {
-    max-width: auto;
-    height: 40%;
-  }
 }
 @media screen and (max-width: 900px) {
   .skills {
