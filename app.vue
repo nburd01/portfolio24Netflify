@@ -8,8 +8,19 @@
           <h2 class="headline font-semibold">I'm Niall</h2>
           <h2 class="headline font-semibold">Portfolio/24</h2>
         </div>
-        <nav>
-          <ul class="menu">
+
+        <nav class="nav">
+          <!--  -->
+          <input type="checkbox" id="nav-check" />
+          <div class="nav-header"></div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          <ul class="nav-list menu">
             <NuxtLink
               class="li"
               :to="{ path: '/', hash: '#link' }"
@@ -26,6 +37,8 @@
             >
           </ul>
         </nav>
+        <!--  -->
+
         <div>
           <div class="frontEndDeveloperDiv flex flex-col md:flex-row">
             <div class="frontEndDeveloper">
