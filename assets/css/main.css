@@ -118,8 +118,8 @@ section,
 
 .portrait {
   border-radius: 40%;
-  max-width: 30%;
-  height: auto;
+  max-width: auto;
+  height: 30%;
 }
 
 .gsapText {
@@ -195,7 +195,9 @@ span {
   align-content: center;
   flex-flow: wrap;
 }
-
+.desktop {
+  display: block;
+}
 @media screen and (max-width: 720px) {
   span {
     font-size: 0.75em;
@@ -224,6 +226,10 @@ span {
   }
   .projectImg {
     height: 30%;
+  }
+  .portrait {
+    max-width: auto;
+    height: 50%;
   }
 }
 @media screen and (max-width: 900px) {
