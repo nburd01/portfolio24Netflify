@@ -68,27 +68,31 @@
       <section class="card p-0 sm:p-20 bg-white sm:p-11 h-lvh flex flex-col">
         <div class="container mx-auto px-0 sm:px-0 flex flex-col items-center">
           <div class="">
-            <h1 class="aboutMeText text-black text-center">
+            <h1 class="aboutMeText text-black text-center revealUp">
               Crafting nice and useful things for people
             </h1>
           </div>
-          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5">
+          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp">
             An enriching experience in IT reinforced my desire to work more
             closely with the product and the organization of work. Today I
             aspire to a Front-end Developer or Product Owner position which will
             allow me to highlight this versatility acquired during my career in
             the field of innovation and the web.
           </p>
-          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5">
+          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp">
             I graduated from Business Administration and Marketing degree in
             IGR-IAE school of Management in Rennes, France.
           </p>
-          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5">
+          <p class="whatIdo text-center text-black p-0 sm:px-24 py-5 revealUp">
             Previously I had the opportunity to collaborate with the Fédération
             Française de Football where I focused on rebranding and marketing
             the entity, and also porposed and led the project.
           </p>
-          <img src="assets/img/portrait.webp" class="portrait" alt="" />
+          <img
+            src="assets/img/portrait.webp"
+            class="portrait revealUp"
+            alt=""
+          />
         </div>
       </section>
     </div>
@@ -116,7 +120,9 @@
       <!-- <section> -->
       <section>
         <div class="container p-0 sm:p-20 flex align-center wrap">
-          <h2 class="flex text-center justify-center headline">Recent work</h2>
+          <h2 class="flex text-center justify-center headline revealUp">
+            Recent work
+          </h2>
         </div>
       </section>
     </div>
@@ -309,6 +315,7 @@
 <script setup>
 import { onMounted } from "vue";
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 onMounted(() => {
   //SCROLL
@@ -336,12 +343,7 @@ onMounted(() => {
 
   //MARQUEE
   const wrapper = document.querySelector(".wrapper");
-  // const colors = ["#f38630"];
   const boxes = gsap.utils.toArray(".box");
-
-  // gsap.set(boxes, {
-  //   backgroundColor: gsap.utils.wrap(colors),
-  // });
 
   const loop = horizontalLoop(boxes, { paused: false, repeat: -1 });
   function horizontalLoop(items, config) {
@@ -447,6 +449,58 @@ onMounted(() => {
     }
     return tl;
   }
+
+  //TEXT ANIMATION
+  gsap.registerPlugin(ScrollTrigger);
+  // REVEAL
+  gsap.utils.toArray(".revealUp").forEach(function (elem) {
+    ScrollTrigger.create({
+      trigger: elem,
+      start: "top 80%",
+      end: "bottom 20%",
+      markers: false,
+      onEnter: function () {
+        gsap.fromTo(
+          elem,
+          { y: 100, autoAlpha: 0 },
+          {
+            duration: 1.25,
+            y: 0,
+            autoAlpha: 1,
+            ease: "back",
+            overwrite: "auto",
+          }
+        );
+      },
+      onLeave: function () {
+        gsap.fromTo(
+          elem,
+          { autoAlpha: 1 },
+          { autoAlpha: 0, overwrite: "auto" }
+        );
+      },
+      onEnterBack: function () {
+        gsap.fromTo(
+          elem,
+          { y: -100, autoAlpha: 0 },
+          {
+            duration: 1.25,
+            y: 0,
+            autoAlpha: 1,
+            ease: "back",
+            overwrite: "auto",
+          }
+        );
+      },
+      onLeaveBack: function () {
+        gsap.fromTo(
+          elem,
+          { autoAlpha: 1 },
+          { autoAlpha: 0, overwrite: "auto" }
+        );
+      },
+    });
+  });
 });
 </script>
 

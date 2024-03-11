@@ -372,3 +372,7 @@ span {
     height: calc(100vh - 50px);
   }
 }
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
