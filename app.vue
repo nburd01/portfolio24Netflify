@@ -2,7 +2,7 @@
   <div class="gallery">
     <div class="card latched">
       <section
-        class="card latched flex flex-col justify-start content-start bg-black p-0 sm:p-20 text-zinc-50"
+        class="card noRadius latched flex flex-col justify-start content-start bg-black p-0 sm:p-20 text-zinc-50"
       >
         <div class="headlineDiv h-3/3 sm:1/3 md:h-2/3">
           <h2 class="headline font-semibold">I'm Niall</h2>

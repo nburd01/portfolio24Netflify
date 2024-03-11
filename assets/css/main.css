@@ -9,6 +9,10 @@ section,
 .roundedCard {
   border-radius: 3em 3em 0 0;
 }
+
+.noRadius {
+  border-radius: 0;
+}
 .gallery {
   width: 100%;
 }
