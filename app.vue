@@ -133,7 +133,7 @@
     </div>
     <div class="spacer"></div>
     <!-- Roazhon Goal Academy-->
-    <div class="card bg-black" id="link">
+    <div class="card bg-black">
       <section class="card justify-center sm:sm:p-11 pt-0 h-lvh">
         <div class="container">
           <div
@@ -156,7 +156,7 @@
     </div>
     <div class="spacer"></div>
     <!-- Centre Technique Bretagne -->
-    <div class="card bg-black" id="link">
+    <div class="card bg-black">
       <section class="card justify-center sm:sm:p-11 pt-0 h-lvh">
         <div class="container">
           <div
@@ -179,6 +179,7 @@
       </section>
     </div>
     <div class="spacer"></div>
+    <!-- DBG Logo -->
 
     <div class="spacer"></div>
     <!-- FOOTER -->
