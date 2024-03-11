@@ -34,10 +34,10 @@ section,
   z-index: 10;
 }
 .menu .li span {
-  padding: 1em;
   margin: 1em;
   background-color: #32323245;
   border-radius: 1em;
+  font-size: 3em;
 }
 .frontEndDeveloperDiv {
   display: flex;
@@ -347,7 +347,7 @@ span {
     border-top: 2px solid #eee;
   }
   .nav > .nav-list {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -358,6 +358,7 @@ span {
     top: 40px;
     left: 0;
     overflow: hidden;
+    z-index: 100;
   }
   .nav > .nav-list > li {
     width: 100%;
