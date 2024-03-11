@@ -37,7 +37,7 @@ section,
   margin: 1em;
   background-color: #32323245;
   border-radius: 1em;
-  font-size: 3em;
+  font-size: 1em;
 }
 .frontEndDeveloperDiv {
   display: flex;
@@ -86,11 +86,9 @@ section,
 .card {
   width: 100%;
   min-height: 100vh;
-  /* height: 100%; */
   position: relative;
   color: white;
   display: flex;
-  /* background-color: bisque; */
 }
 .last-card {
   height: 200vh;
@@ -224,6 +222,9 @@ span {
     align-items: center;
     overflow: hidden;
   }
+  .projectImg {
+    height: 30%;
+  }
 }
 @media screen and (max-width: 900px) {
   .skills {
@@ -345,6 +346,9 @@ span {
     width: 25px;
     height: 10px;
     border-top: 2px solid #eee;
+  }
+  .menu .li span {
+    font-size: 2em;
   }
   .nav > .nav-list {
     position: fixed;
