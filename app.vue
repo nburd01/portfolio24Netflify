@@ -92,7 +92,7 @@
             the entity, and also porposed and led the project.
           </p>
           <img
-            src="assets/img/portrait.webp"
+            src="assets/img/Niall_Burdon_portrait.webp"
             class="portrait revealUp"
             alt=""
           />
